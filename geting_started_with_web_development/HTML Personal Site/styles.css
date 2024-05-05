@@ -1,0 +1,25 @@
+/* CSS for body element */
+body {
+    background-color: rgb(191, 253, 255); /* Set background color using RGB values */
+}
+
+/* CSS for horizontal rule (hr) element */
+hr {
+    /* Border style for hr */
+    border-style: none; /* No border style on all sides */
+    border-top-style: dotted; /* Only top border with dotted style */
+    height: 0px; /* Set height to 0 pixels (invisible line) */
+    width: 10%; /* Set width of hr to 10% of the container */
+    border-color: gray; /* Set border color to gray */
+    border-width: 5px; /* Set border width to 5 pixels */
+}
+
+/* CSS for h1 element */
+h1 {
+    color: rgb(99, 241, 194); /* Set text color using RGB values */
+}
+
+/* CSS for h3 element */
+h3 {
+    color: rgb(75, 144, 235); /* Set text color using RGB values */
+}

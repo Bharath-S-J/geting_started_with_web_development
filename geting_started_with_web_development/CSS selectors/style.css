@@ -1,0 +1,37 @@
+/* Styling for h1 element */
+h1 {
+    color: red;         /* Sets text color of h1 to red */
+    font-size: 200px;   /* Sets font size of h1 to 200 pixels */
+}
+
+/* Styling for img elements (commented out) */
+/* img {
+    background-color: red;  */
+/* } */
+
+/* Class selectors for specific styling */
+/* Styling for elements with class "bacon" */
+.bacon {
+    background-color: green;    /* Sets background color of elements with class "bacon" to green */
+}
+
+/* Styling for elements with class "broccoli" */
+.broccoli {
+    background-color: red;      /* Sets background color of elements with class "broccoli" to red */
+}
+
+/* Styling for elements with class "circular" */
+.circular {
+    border-radius: 30%;         /* Applies a rounded border (30% radius) to elements with class "circular" */
+}
+
+/* ID selector for specific styling */
+/* Styling for element with ID "heading" */
+#heading {
+    color: blue;                /* Sets text color of element with ID "heading" to blue */
+}
+
+/* Styling for img elements when hovered over with mouse */
+img:hover {
+    background-color: goldenrod;    /* Changes background color of img elements to goldenrod on hover */
+}

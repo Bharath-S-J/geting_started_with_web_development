@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Details</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS stylesheet -->
+</head>
+<body>
+    <h1>My Contact Details</h1> <!-- Main heading -->
+    <p>My Fictional Address</p> <!-- Paragraph with fictional address -->
+    <p>1234567895</p> <!-- Paragraph with phone number -->
+    <p>myexample@gmail.com</p> <!-- Paragraph with email address -->
+
+    <!-- Contact form -->
+    <form action="mailto:example@gmail.com" method="post" enctype="text/plain">
+        <label for="yourName">Your Name:</label>
+        <input type="text" name="yourName" id="yourName"><br> <!-- Text input for name -->
+        <label for="yourEmail">Your Email:</label>
+        <input type="email" name="yourEmail" id="yourEmail"><br> <!-- Email input for email address -->
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea><br> <!-- Textarea for message -->
+        <input type="submit" value="Submit"> <!-- Submit button to send form data via email -->
+    </form>
+</body>
+</html>
